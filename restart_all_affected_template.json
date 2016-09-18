@@ -1,0 +1,38 @@
+{
+  "RequestInfo":{
+    "command":"RESTART",
+    "context":"Restart all affected services"
+  },
+  "Requests/resource_filters":[
+    {
+      "service_name":"MAPREDUCE2",
+      "component_name" : "HISTORYSERVER",
+      "hosts" : "HISTORYSERVER_HOST"
+    },
+    {
+      "service_name":"MAPREDUCE2",
+      "component_name" : "MAPREDUCE2_CLIENT",
+      "hosts" : "MAPREDUCE2_CLIENT_HOSTS"
+    },
+    {
+      "service_name":"YARN",
+      "component_name" : "APP_TIMELINE_SERVER",
+      "hosts" : "APP_TIMELINE_SERVER_HOST"
+    },
+    {
+      "service_name":"YARN",
+      "component_name" : "NODEMANAGER",
+      "hosts" : "NODEMANAGER_HOSTS"
+    },
+    {
+      "service_name":"YARN",
+      "component_name" : "RESOURCEMANAGER",
+      "hosts" : "RESOURCEMANAGER_HOST"
+    },
+    {
+      "service_name":"YARN",
+      "component_name" : "YARN_CLIENT",
+      "hosts" : "YARN_CLIENT_HOSTS"
+    }
+  ]
+}
