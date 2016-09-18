@@ -34,7 +34,7 @@ You can find explanation and example at [here](https://cwiki.apache.org/confluen
 
 ## How to use?
 
-First, at all, you need to clone this repository and put it on your **Ambari Server** for using **configs.sh**.
+First, you need to clone this repository and put it on your **Ambari Server** for using **configs.sh**.
 
 Then, you have to modify some setting in this script like:
 
